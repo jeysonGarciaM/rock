@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One+SC&family=Roboto&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.superior {
+    display: flex;
+    position: relative;
+    font-family: 'Bowlby One SC', cursive;
+}
+
+.imagentop{
+    width: 100%;
+    height: 70vh;
+}
+
+.imagentop img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center -160px;
+}
+.titulo{
+    position: absolute;
+    color: azure;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    text-align: center;
+    font-size: 85px;
+    text-shadow: 0px 0px 2px #000;
+    
+}
+
+.textPrin{
+    font-family: 'Roboto', sans-serif;
+    padding: 15px;
+    text-align: justify;
+    background: #012b50;
+    color: white;
+}
+
+.caja {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tarjeta{
+    max-width: 20em;
+    margin: 1em;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color:#FFF;
+    box-shadow: 0 6px 16px #999;
+    font-size: 15px;
+}
+
+.tarjeta .imagenTar{
+    max-height: 20em;
+    height: 40vh;
+    overflow: hidden;
+    border-radius: 10px 10px 0 0;
+    display: flex;
+    justify-content: center;
+    filter: grayscale(100%);
+}
+
+.tarjeta .fotos img {
+    object-fit: cover;
+}
+
+.nombre {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    margin: 10px;
+    padding-top: 5px;
+    font-size: 12px;
+}
+
+.textTar{
+    margin: 10px;
+    height: 40vh;
+    padding: 5px;
+    text-align: justify;
+}
+
+.banda {
+    background: #012b50;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 0 0 10px 10px;
+}
+
+footer{
+    text-align: center;
+    font-size: .8em;
+    margin-bottom: 1em;
+}
+
+@media (max-width:500PX){
+    .superior{
+        flex-direction: column;
+    }
+
+    .cartas2{
+        width: 100%;
+        height: 50vh;
+    }
+
+    .cartas2 img{
+        object-position: center center;
+    }
+
+    .titulo{
+        align-items: center;
+        font-size: 60px;
+    }
+
+    .caja {
+        flex-direction: column;
+   }
+}
+
+@media (max-width:370px){
+    .superior{
+        flex-direction: column;
+    }
+
+    .cartas2{
+        width: 100%;
+        height: 50vh;
+    }
+
+    .cartas2 img{
+        object-position: center center;
+    }
+
+    .titulo{
+        align-items: center;
+        font-size: 60px;
+    }
+
+    .caja {
+        flex-direction: column;
+   }
+}
+
+@media (max-width:300px){
+    .superior{
+        flex-direction: column;
+    }
+
+    .cartas2{
+        width: 100%;
+        height: 50vh;
+    }
+
+    .cartas2 img{
+        object-position: center center;
+    }
+
+    .titulo{
+        align-items: center;
+        font-size: 60px;
+    }
+
+    .caja {
+        flex-direction: column;
+   }
+
+}
+
+
